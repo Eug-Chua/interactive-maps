@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", async function() {
 // create taxi icon 
 let taxiIcon = L.icon({
    iconUrl: 'taxi.png',
-   iconSize: [30, 15]
+   iconSize: [30, 30]
    });
 
 async function loadTaxi(){

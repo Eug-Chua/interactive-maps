@@ -1,0 +1,17 @@
+#singaporeMap {
+    height:100vh;
+    position: relative;
+}
+
+.buttons-container {
+    display: flex;
+    position: absolute;
+    left: 50px;
+    top: 10px; /* Adjust based on preference */
+    z-index: 1000;
+}
+
+#showBlueCircles, #hideBlueCircles, #toggle-btn {
+    /* position: absolute; */
+    z-index: 1000; /* Ensure it's above the map */
+}
