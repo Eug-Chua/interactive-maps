@@ -154,7 +154,7 @@ for (let i = 0; i < mrtLatLng.length; i ++) {
         color:"teal",
         fillColor:"blue",
         fillOpacity:"0.05",
-        radius:300
+        radius:500
          }).addTo(mrtGroup)
     let mrtMarker = L.marker(mrtLatLng[i], {icon:mrtIcon}).addTo(mrtGroup);
     mrtMarker.addTo(mrtGroup)
@@ -342,13 +342,11 @@ for (let i = 0; i < shoppingLatLng.length; i ++) {
 
 let baseLayers = {
     "Markers":parkGroup
-    
 }
 
 let overlays = {
     "MRT":mrtGroup,
     "Shopping Malls":shoppingGroup,
-    
 }
 
 L.control.layers(baseLayers, overlays).addTo(map);
